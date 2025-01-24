@@ -16,7 +16,3 @@ Route::prefix("ruka")->group(function(){
 Route::prefix("funa")->group(function () {
     Route::get('/top', [FunaTopController::class, 'index'])->name('funa.top.index');
 });
-
-Route::prefix("funa")->group(function () {
-    Route::get('/top', [FunaTopController::class, 'index'])->name('funa.top.index');
-});
