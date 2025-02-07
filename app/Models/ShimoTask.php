@@ -6,6 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class ShimoTask extends Model
 {
-    //
-    protected $fillable=['title','content','category_id']
+    protected $fillable = ['title','content','category_id'];
 }

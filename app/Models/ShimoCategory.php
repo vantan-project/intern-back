@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class ShimoCategory extends Model
 {
-    protected $fillable=['name']
+    protected $fillable = ['name'];
 }

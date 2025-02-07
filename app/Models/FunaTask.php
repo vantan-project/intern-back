@@ -6,6 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class FunaTask extends Model
 {
-    use HasFactory;
     protected $fillable = ["title","content","category_id"];
 }
